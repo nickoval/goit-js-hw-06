@@ -7,6 +7,7 @@ const numberOfCategories = itemsArray.length;
 console.log(`Number of categories: ${numberOfCategories}`);
 
 itemsArray.forEach(item => {
+  console.log('');
   const titleEl = item.firstElementChild;
   console.log(`Category: ${titleEl.textContent}`);
 
